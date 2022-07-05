@@ -1,8 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 
-import Inter from './assets/fonts/Inter-VariableFont.ttf';
-import Karla from './assets/fonts/Karla-VariableFont.ttf';
-
 const GlobalStyles = createGlobalStyle`
 	* {
 		box-sizing: border-box;
@@ -13,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
 		width: 100vw;
 		height: 100vh;
 		background-color: #f5f7fb;
+		font-family: sans-serif;
 	}
 
 	#root {

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
+const Button = styled.button`
 	background-color: #4d5b9e;
 	color: #f5f7fb;
-	font-family: 'Inter';
+	font-family: sans-serif;
 	border: none;
 	padding: 2rem 4rem;
 	border-radius: 15px;
@@ -18,4 +18,4 @@ const StyledButton = styled.button`
 	}
 `;
 
-export default StyledButton;
+export default Button;

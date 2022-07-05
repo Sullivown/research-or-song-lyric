@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import StyledButton from '../components/Button';
-import StyledH1 from '../components/StyledH1';
+import Button from '../elements/Button';
+import H1 from '../elements/H1';
 
 const StyledStartPage = styled.div`
 	color: #293264;
@@ -16,8 +16,8 @@ const StyledStartPage = styled.div`
 function StartPage() {
 	return (
 		<StyledStartPage>
-			<StyledH1>Research Paper or Song Lyric!</StyledH1>
-			<StyledButton>Start Quiz!</StyledButton>
+			<H1>Research Paper or Song Lyric?</H1>
+			<Button>Start Quiz!</Button>
 		</StyledStartPage>
 	);
 }
