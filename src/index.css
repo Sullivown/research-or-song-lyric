@@ -1,9 +1,9 @@
-* {
-	box-sizing: border-box;
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/fonts/Inter-VariableFont.ttf) format('truetype');
 }
 
-body {
-	margin: 0;
-	width: 100vw;
-	height: 100vh;
+@font-face {
+	font-family: 'Karla';
+	src: url(./assets/fonts/Karla-VariableFont.ttf) format('truetype');
 }
