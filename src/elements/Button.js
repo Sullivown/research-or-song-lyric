@@ -8,9 +8,11 @@ const Button = styled.button`
 	padding: 2rem 4rem;
 	border-radius: 15px;
 	font-size: 1.5rem;
+	min-width: 250px;
 
 	&:hover {
 		cursor: pointer;
+		opacity: 0.9;
 	}
 
 	&:active {

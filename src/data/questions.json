@@ -3,18 +3,21 @@
 		"id": 0,
 		"quote": "This is a quote",
 		"answer": "research",
-		"source": "http://www.google.com"
+		"source": "http://www.google.com",
+		"answered": null
 	},
 	{
 		"id": 1,
 		"quote": "This is a quote 1",
 		"answer": "lyric",
-		"source": "http://www.google.com"
+		"source": "http://www.google.com",
+		"answered": null
 	},
 	{
 		"id": 2,
 		"quote": "This is a quote 2",
 		"answer": "research",
-		"source": "http://www.google.com"
+		"source": "http://www.google.com",
+		"answered": null
 	}
 ]

@@ -13,11 +13,11 @@ const StyledStartPage = styled.div`
 	text-align: center;
 `;
 
-function StartPage() {
+function StartPage(props) {
 	return (
 		<StyledStartPage>
 			<H1>Research Paper or Song Lyric?</H1>
-			<Button>Start Quiz!</Button>
+			<Button onClick={props.handleStartClick}>Start Quiz!</Button>
 		</StyledStartPage>
 	);
 }
