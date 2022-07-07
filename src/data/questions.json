@@ -3,21 +3,27 @@
 		"id": 0,
 		"quote": "This is a quote",
 		"answer": "research",
-		"source": "http://www.google.com",
-		"answered": null
+		"details": {
+			"title": "Research Paper 1",
+			"source": "http://www.google.com"
+		}
 	},
 	{
 		"id": 1,
 		"quote": "This is a quote 1",
 		"answer": "lyric",
-		"source": "http://www.google.com",
-		"answered": null
+		"details": {
+			"title": "Research Paper 2",
+			"source": "http://www.google.com"
+		}
 	},
 	{
 		"id": 2,
 		"quote": "This is a quote 2",
 		"answer": "research",
-		"source": "http://www.google.com",
-		"answered": null
+		"details": {
+			"title": "Research Paper 3",
+			"source": "http://www.google.com"
+		}
 	}
 ]
