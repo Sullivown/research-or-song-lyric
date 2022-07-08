@@ -84,7 +84,10 @@ function Question(props) {
 					Lyrics
 				</AnswerButton>
 			</OptionsDiv>
-			<Answer question={props.question} />
+			<Answer
+				question={props.question}
+				handleNextQuestionClick={props.handleNextQuestionClick}
+			/>
 		</QuestionDiv>
 	);
 }

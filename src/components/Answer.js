@@ -42,7 +42,9 @@ function Answer(props) {
 					</a>
 				</div>
 				<div>
-					<Button>Next Quote</Button>
+					<Button onClick={props.handleNextQuestionClick}>
+						Next Quote
+					</Button>
 				</div>
 			</AnswerDiv>
 		</>

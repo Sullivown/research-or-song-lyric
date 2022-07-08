@@ -5,6 +5,7 @@ import questionData from './data/questions.json';
 
 import StartPage from './pages/StartPage';
 import QuizPage from './pages/QuizPage';
+import ScorePage from './pages/ScorePage';
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -12,8 +13,14 @@ function App() {
 	const [currentPage, setCurrentPage] = useState('start');
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 
-	function handleStartClick() {
-		setCurrentPage('quiz');
+	function handleNextQuestionClick() {
+		if (currentPage === 'start') {
+			setCurrentPage('quiz');
+		} else if (currentQuestion + 1 >= questions.length) {
+			setCurrentPage('score');
+		} else {
+			setCurrentQuestion((prevQuestion) => prevQuestion + 1);
+		}
 	}
 
 	function handleAnswerClick(id, answer) {
@@ -30,13 +37,17 @@ function App() {
 		<div>
 			{
 				{
-					start: <StartPage handleStartClick={handleStartClick} />,
+					start: (
+						<StartPage handleStartClick={handleNextQuestionClick} />
+					),
 					quiz: (
 						<QuizPage
 							question={questions[currentQuestion]}
+							handleNextQuestionClick={handleNextQuestionClick}
 							handleAnswerClick={handleAnswerClick}
 						/>
 					),
+					score: <ScorePage />,
 				}[currentPage]
 			}
 		</div>
