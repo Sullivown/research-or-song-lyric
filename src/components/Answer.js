@@ -17,6 +17,10 @@ const AnswerDiv = styled.div`
 	visibility: ${(props) => (props.answered ? 'visible' : 'hidden')};
 `;
 
+const NextButton = styled(Button)`
+	font-size: 1.2rem;
+`;
+
 function Answer(props) {
 	return (
 		<>
@@ -42,9 +46,11 @@ function Answer(props) {
 					</a>
 				</div>
 				<div>
-					<Button onClick={props.handleNextQuestionClick}>
-						Next Quote
-					</Button>
+					<NextButton onClick={props.handleNextQuestionClick}>
+						{props.currentQuestionNum + 1 === props.totalQuestions
+							? 'Show Score Summary'
+							: 'Next Quote'}
+					</NextButton>
 				</div>
 			</AnswerDiv>
 		</>

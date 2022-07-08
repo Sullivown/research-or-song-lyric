@@ -48,6 +48,8 @@ function App() {
 					quiz: (
 						<QuizPage
 							question={questions[currentQuestion]}
+							currentQuestionNum={currentQuestion}
+							totalQuestions={questions.length}
 							handleNextQuestionClick={handleNextQuestionClick}
 							handleAnswerClick={handleAnswerClick}
 						/>

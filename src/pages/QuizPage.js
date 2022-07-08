@@ -6,6 +6,8 @@ function QuizPage(props) {
 		<div>
 			<Question
 				question={props.question}
+				currentQuestionNum={props.currentQuestionNum}
+				totalQuestions={props.totalQuestions}
 				handleAnswerClick={props.handleAnswerClick}
 				handleNextQuestionClick={props.handleNextQuestionClick}
 			/>

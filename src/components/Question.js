@@ -86,6 +86,8 @@ function Question(props) {
 			</OptionsDiv>
 			<Answer
 				question={props.question}
+				currentQuestionNum={props.currentQuestionNum}
+				totalQuestions={props.totalQuestions}
 				handleNextQuestionClick={props.handleNextQuestionClick}
 			/>
 		</QuestionDiv>
