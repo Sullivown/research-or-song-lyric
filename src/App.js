@@ -24,6 +24,11 @@ function App() {
 	}
 
 	function handleAnswerClick(id, answer) {
+		// update score if correct
+		questions[currentQuestion].answer === answer &&
+			setScore((prevScore) => prevScore + 1);
+
+		// update question with the answer
 		setQuestions((prevQuestions) =>
 			prevQuestions.map((question) => {
 				return question.id === id
@@ -47,7 +52,9 @@ function App() {
 							handleAnswerClick={handleAnswerClick}
 						/>
 					),
-					score: <ScorePage />,
+					score: (
+						<ScorePage score={score} maxScore={questions.length} />
+					),
 				}[currentPage]
 			}
 		</div>
