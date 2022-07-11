@@ -13,6 +13,13 @@ function App() {
 	const [currentPage, setCurrentPage] = useState('start');
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 
+	function resetQuiz() {
+		setQuestions(dataLoader(questionData));
+		setScore(0);
+		setCurrentPage('start');
+		setCurrentQuestion(0);
+	}
+
 	function handleNextQuestionClick() {
 		if (currentPage === 'start') {
 			setCurrentPage('quiz');
@@ -55,7 +62,11 @@ function App() {
 						/>
 					),
 					score: (
-						<ScorePage score={score} maxScore={questions.length} />
+						<ScorePage
+							score={score}
+							maxScore={questions.length}
+							resetQuiz={resetQuiz}
+						/>
 					),
 				}[currentPage]
 			}

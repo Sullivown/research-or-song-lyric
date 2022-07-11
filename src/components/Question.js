@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import H2 from '../elements/H2';
+import P from '../elements/P';
 import Button from '../elements/Button';
 import Answer from './Answer';
 
@@ -51,7 +52,10 @@ const AnswerButton = styled(Button)`
 function Question(props) {
 	return (
 		<QuestionDiv>
-			<H2>"{props.question.quote}"</H2>
+			<H2>
+				Quote {props.currentQuestionNum + 1} / {props.totalQuestions}:
+			</H2>
+			<P>"{props.question.quote}"</P>
 			<OptionsDiv>
 				<AnswerButton
 					disabled={props.question.answered}
