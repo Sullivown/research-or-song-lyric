@@ -11,16 +11,46 @@
 	},
 	{
 		"id": 1,
-		"quote": "This is a quote 1",
+		"quote": "it's one universal law but two sides to every story",
 		"answer": "lyric",
 		"details": {
-			"title": "Research Paper 2",
-			"source": "http://www.google.com",
+			"title": "Mathematics by Mos Def",
+			"source": "https://youtu.be/m5vw4ajnWGA",
 			"nsfw": true
 		}
 	},
 	{
 		"id": 2,
+		"quote": "yikes, this is a good place for measuring",
+		"answer": "research",
+		"details": {
+			"title": "Confrey, J. (1994). Splitting, similarity, and rate of change: A new approach to multiplication and exponential functions. In G. Harel & J. Confrey (Eds.), The development of multiplicative reasoning in the learning of mathematics (pp. 291–330). SUNY Press, p.288",
+			"source": "https://sunypress.edu/Books/T/The-Development-of-Multiplicative-Reasoning-in-the-Learning-of-Mathematics2",
+			"nsfw": false
+		}
+	},
+	{
+		"id": 3,
+		"quote": "the pudding in the proof",
+		"answer": "lyric",
+		"details": {
+			"title": "Juice by Lizzo",
+			"source": "https://youtu.be/XaCrQL_8eMY",
+			"nsfw": false
+		}
+	},
+	{
+		"id": 4,
+		"quote": "This is a quote 2",
+		"answer": "research",
+		"details": {
+			"title": "Research Paper 3",
+			"source": "http://www.google.com",
+			"nsfw": false
+		}
+	},
+	{
+		"id": 5,
 		"quote": "This is a quote 2",
 		"answer": "research",
 		"details": {
