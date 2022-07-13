@@ -50,9 +50,7 @@ function Answer(props) {
 				)}
 
 				<div>
-					<a href={props.question.details.source}>
-						{props.question.details.source}
-					</a>
+					<a href={props.question.details.source}>Link</a>
 				</div>
 				<div>
 					<NextButton onClick={props.handleNextQuestionClick}>

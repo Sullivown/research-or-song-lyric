@@ -12,6 +12,7 @@ const QuestionDiv = styled.div`
 	flex-direction: column;
 	text-align: center;
 	gap: 2rem;
+	max-width: 750px;
 `;
 
 const OptionsDiv = styled.div`
