@@ -54,7 +54,7 @@ function App() {
 	}
 
 	return (
-		<div>
+		<>
 			{
 				{
 					start: (
@@ -78,7 +78,7 @@ function App() {
 					),
 				}[currentPage]
 			}
-		</div>
+		</>
 	);
 }
 

@@ -12,9 +12,9 @@ const AnswerDiv = styled.div`
 	flex-direction: column;
 	padding: 1rem;
 	gap: 1rem;
-	min-height: 10rem;
 	border: 1px solid #4d5b9e;
 	border-radius: 15px;
+	min-width: clamp(250px, 515px, 100%);
 	visibility: ${(props) => (props.answered ? 'visible' : 'hidden')};
 `;
 

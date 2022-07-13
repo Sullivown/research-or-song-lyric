@@ -9,8 +9,10 @@ const StyledStartPage = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	align-items: center
 	gap: 25px;
 	text-align: center;
+	height: 100%;
 `;
 
 function StartPage(props) {

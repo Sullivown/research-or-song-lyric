@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
@@ -10,6 +10,8 @@ import Answer from './Answer';
 const QuestionDiv = styled.div`
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 	gap: 2rem;
 	max-width: 750px;
@@ -20,7 +22,7 @@ const OptionsDiv = styled.div`
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	gap: 1rem;
+	gap: 15px;
 	text-align: center;
 `;
 
@@ -51,6 +53,10 @@ const AnswerButton = styled(Button)`
 `;
 
 function Question(props) {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, [props]);
+
 	return (
 		<QuestionDiv>
 			<H2>

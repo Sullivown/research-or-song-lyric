@@ -5,10 +5,14 @@ const GlobalStyles = createGlobalStyle`
 		box-sizing: border-box;
 	}
 
+	html {
+		height: 100%;
+	}
+
 	body {
 		margin: 0;
 		width: 100vw;
-		height: 100vh;
+		min-height: 100%;
 		background-color: #f5f7fb;
 		font-family: sans-serif;
 	}
@@ -18,9 +22,9 @@ const GlobalStyles = createGlobalStyle`
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		justify-content: center;
-		padding: 15px;
+		align-items: center;
+		padding: 1rem;
 	}
 
 `;
