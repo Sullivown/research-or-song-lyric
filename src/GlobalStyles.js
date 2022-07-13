@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
 	}
 
 	#root {
-		height: 100%;
+		min-height: 100vh;
 		width: 100%;
 		display: flex;
 		flex-direction: column;
