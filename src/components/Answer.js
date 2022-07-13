@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import Button from '../elements/Button';
 import P from '../elements/P';
+import H3 from '../elements/H3';
 
 const AnswerDiv = styled.div`
 	display: flex;
@@ -26,12 +27,12 @@ function Answer(props) {
 	return (
 		<>
 			<AnswerDiv answered={props.question.answered}>
-				<div>
+				<H3>
 					{props.question.answer === props.question.answered
 						? 'Correct'
 						: 'Incorrect'}
 					!
-				</div>
+				</H3>
 				<div>
 					The quote is from{' '}
 					{props.question.answer === 'research'
@@ -39,7 +40,7 @@ function Answer(props) {
 						: 'song lyrics'}
 					.
 				</div>
-				<div>Source:</div>
+				<H3>Source:</H3>
 				<div> {props.question.details.title}</div>
 
 				{props.question.details.nsfw && (
