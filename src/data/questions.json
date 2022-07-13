@@ -1,12 +1,12 @@
 [
 	{
 		"id": 0,
-		"quote": "This is a quote",
+		"quote": "investigate the possible - think the otherwise",
 		"answer": "research",
 		"details": {
-			"title": "Research Paper 1",
-			"source": "http://www.google.com",
-			"nsfw": true
+			"title": "de Freitas, E. (2008). Critical mathematics education: recognizing the ethical dimension of problem solving, p.81 ",
+			"source": "https://www.iejme.com/article/critical-mathematics-education-recognizing-the-ethical-dimension-of-problem-solving",
+			"nsfw": false
 		}
 	},
 	{
