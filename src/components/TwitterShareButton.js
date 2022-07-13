@@ -26,10 +26,8 @@ const TwitterLink = styled.a`
 function TwitterShareButton(props) {
 	return (
 		<TwitterLink
-			href={`https://twitter.com/intent/tweet?originTwitterLinkl_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&related=honeypisquared&text=I%20scored%20${props.score}%20out%20of%20${props.maxScore}%20on%20the%20%27Research%20Paper%20or%20Song%20Lyric%27%20quiz!`}
-			data-text='I scored SCORE on the &#39;Research Paper or Song Lyric&#39; quiz!'
-			data-related='honeypisquared'
-			data-show-count='false'
+			href={`https://twitter.com/intent/tweet?originTwitterLinkl_referer=https%3A%2F%2Fpublish.twitter.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&related=honeypisquared&text=I%20scored%20${props.score}%20out%20of%20${props.maxScore}%20on%20the%20%27Maths%20Education%20Research%20or%20Song%20Lyric%27%20quiz!%0A%0ATry%20it%20yourself%20here:%0A%0Ahttps://sullivown.github.io/research-or-song-lyric`}
+			target='_blank'
 		>
 			<TwitterButton>
 				<TwitterLogo />

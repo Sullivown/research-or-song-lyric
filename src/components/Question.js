@@ -15,6 +15,10 @@ const QuestionDiv = styled.div`
 	text-align: center;
 	gap: 2rem;
 	max-width: 750px;
+	padding-top: 100px;
+	@media (max-width: 768px) {
+		padding-top: 0;
+	}
 `;
 
 const OptionsDiv = styled.div`

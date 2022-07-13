@@ -9,7 +9,7 @@ import QuizPage from './pages/QuizPage';
 import ScorePage from './pages/ScorePage';
 
 const allQuestionsFormattedData = dataLoader(questionData);
-const TOTAL_QUESTIONS = 5;
+const TOTAL_QUESTIONS = 15;
 
 function App() {
 	const [score, setScore] = useState(0);

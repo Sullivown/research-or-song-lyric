@@ -21,9 +21,8 @@ const GlobalStyles = createGlobalStyle`
 		min-height: 100vh;
 		width: 100%;
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		padding: 1rem;
 	}
 

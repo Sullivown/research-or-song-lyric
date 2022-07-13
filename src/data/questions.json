@@ -51,7 +51,7 @@
 	},
 	{
 		"id": 5,
-		"quote": "there is no such thing as ‘neutral’  ",
+		"quote": "there is no such thing as 'neutral'",
 		"answer": "research",
 		"details": {
 			"title": "Bakker, A., Cai, J. & Zenger, L.  Future themes of mathematics education research: an international survey before and during the pandemic,  p12",
@@ -101,7 +101,7 @@
 	},
 	{
 		"id": 10,
-		"quote": "flipping with a coin that's got a tail on either side  ",
+		"quote": "flipping with a coin that's got a tail on either side",
 		"answer": "lyric",
 		"details": {
 			"title": "Never Be Lonely by The Feeling",
@@ -141,7 +141,7 @@
 	},
 	{
 		"id": 14,
-		"quote": "a stickperson who moves mathematically  ",
+		"quote": "a stickperson who moves mathematically",
 		"answer": "research",
 		"details": {
 			"title": "Healy, L., & Sinclair, N. (2007). If this is our mathematics, what are our stories? International Journal of Computers for Mathematical Learning, 12, 3–21, p.19. ",
@@ -171,10 +171,10 @@
 	},
 	{
 		"id": 17,
-		"quote": "It’s nothing, you just added some zeroes",
+		"quote": "It's nothing, you just added some zeroes",
 		"answer": "research",
 		"details": {
-			"title": "Lappan, G., & Wheeler, M. M. (1987). Children’s understanding of zero and infinity. The Arithmetic Teacher, 35(3), 42–44, p.44",
+			"title": "Lappan, G., & Wheeler, M. M. (1987). Children's understanding of zero and infinity. The Arithmetic Teacher, 35(3), 42-44, p.44",
 			"source": "https://www.jstor.org/stable/41194259",
 			"nsfw": false
 		}
@@ -184,7 +184,7 @@
 		"quote": "when you want to reach the stars. . . the nearer you try to get the farther they go",
 		"answer": "research",
 		"details": {
-			"title": "Singer, F. M., & Voica, C. (2008). Between perception and intuition: Learning about infinity. The Journal of Mathematical Behavior, 27(3), 188–205, p.191 ",
+			"title": "Singer, F. M., & Voica, C. (2008). Between perception and intuition: Learning about infinity. The Journal of Mathematical Behavior, 27(3), 188-205, p.191 ",
 			"source": "https://www.researchgate.net/publication/250726148_Between_perception_and_intuition_Learning_about_infinity",
 			"nsfw": false
 		}
@@ -194,14 +194,14 @@
 		"quote": "I’ve invented a number bigger than infinity",
 		"answer": "research",
 		"details": {
-			"title": "Tall, D. (2001). A child thinking about infinity. The Journal of Mathematical Behavior, 20(1), 7–19, p.3",
+			"title": "Tall, D. (2001). A child thinking about infinity. The Journal of Mathematical Behavior, 20(1), 7-19, p.3",
 			"source": "https://www.researchgate.net/publication/37143279_A_child_thinking_about_infinity",
 			"nsfw": false
 		}
 	},
 	{
 		"id": 20,
-		"quote": "how many nights does it take to count the stars?” ",
+		"quote": "how many nights does it take to count the stars?",
 		"answer": "lyric",
 		"details": {
 			"title": "Infinity by One Direction",

@@ -8,6 +8,7 @@ const StyledStartPage = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-self: center;
 	gap: 25px;
 	text-align: center;
 	height: 100%;

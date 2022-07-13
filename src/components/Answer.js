@@ -50,7 +50,13 @@ function Answer(props) {
 				)}
 
 				<div>
-					<a href={props.question.details.source}>Link</a>
+					<a
+						href={props.question.details.source}
+						target='_blank'
+						rel='noreferrer'
+					>
+						Link
+					</a>
 				</div>
 				<div>
 					<NextButton onClick={props.handleNextQuestionClick}>

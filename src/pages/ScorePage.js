@@ -17,6 +17,7 @@ const StyledScorePage = styled.div`
 	align-items: center;
 	justify-content: center;
 	gap: 25px;
+	align-self: center;
 	text-align: center;
 `;
 
@@ -32,7 +33,10 @@ function ScorePage(props) {
 			<P>
 				You scored {props.score} out of {props.maxScore}
 			</P>
-			<P>which is {calculatePercentage(props.score, props.maxScore)}%</P>
+			<P>
+				which is{' '}
+				{Math.ceil(calculatePercentage(props.score, props.maxScore))}%
+			</P>
 			<Button onClick={props.resetQuiz}>Play Again</Button>
 			<TwitterShareButton score={props.score} maxScore={props.maxScore} />
 		</StyledScorePage>
