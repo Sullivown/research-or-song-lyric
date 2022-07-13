@@ -9,19 +9,19 @@ import QuizPage from './pages/QuizPage';
 import ScorePage from './pages/ScorePage';
 
 const allQuestionsFormattedData = dataLoader(questionData);
-const MAX_QUESTIONS = 5;
+const TOTAL_QUESTIONS = 5;
 
 function App() {
 	const [score, setScore] = useState(0);
 	const [questions, setQuestions] = useState(
-		getRandomSubarray(allQuestionsFormattedData, MAX_QUESTIONS)
+		getRandomSubarray(allQuestionsFormattedData, TOTAL_QUESTIONS)
 	);
 	const [currentPage, setCurrentPage] = useState('start');
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 
 	function resetQuiz() {
 		setQuestions(
-			getRandomSubarray(allQuestionsFormattedData, MAX_QUESTIONS)
+			getRandomSubarray(allQuestionsFormattedData, TOTAL_QUESTIONS)
 		);
 		setScore(0);
 		setCurrentPage('start');

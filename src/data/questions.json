@@ -88,8 +88,8 @@
 			"source": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.5826&rep=rep1&type=pdf",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 9,
 		"quote": "reaching out to embrace the random",
 		"answer": "lyric",
@@ -98,8 +98,8 @@
 			"source": "https://youtu.be/uOHkeH2VaE0",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 10,
 		"quote": "flipping with a coin that's got a tail on either side  ",
 		"answer": "lyric",
@@ -108,8 +108,8 @@
 			"source": "https://youtu.be/MS5da0OPhY8",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 11,
 		"quote": "there is no reality to get in your way",
 		"answer": "research",
@@ -118,8 +118,8 @@
 			"source": "https://www.maa.org/external_archive/devlin/LockhartsLament.pdf",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 12,
 		"quote": "clap on every third beat",
 		"answer": "research",
@@ -128,8 +128,8 @@
 			"source": "https://www.researchgate.net/publication/259735112_Dancing_Mathematics_and_the_Mathematics_of_Dance",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 13,
 		"quote": "clap your hands and bend your knees with the music",
 		"answer": "lyric",
@@ -138,8 +138,8 @@
 			"source": "https://youtu.be/9Hpv2pWRoYM",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 14,
 		"quote": "a stickperson who moves mathematically  ",
 		"answer": "research",
@@ -148,8 +148,8 @@
 			"source": "https://www.researchgate.net/publication/225764431_If_this_is_our_mathematics_what_are_our_stories",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 15,
 		"quote": "arrest this man – he talks in maths",
 		"answer": "lyric",
@@ -158,8 +158,8 @@
 			"source": "https://youtu.be/1uYWYWPc9HU",
 			"nsfw": true
 		}
-	}
 	},
+	{
 		"id": 16,
 		"quote": "no end and no beginning",
 		"answer": "lyric",
@@ -168,8 +168,8 @@
 			"source": "https://youtu.be/79fzeNUqQbQ",
 			"nsfw": true
 		}
-	}
 	},
+	{
 		"id": 17,
 		"quote": "It’s nothing, you just added some zeroes",
 		"answer": "research",
@@ -178,8 +178,8 @@
 			"source": "https://www.jstor.org/stable/41194259",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 18,
 		"quote": "when you want to reach the stars. . . the nearer you try to get the farther they go",
 		"answer": "research",
@@ -188,8 +188,8 @@
 			"source": "https://www.researchgate.net/publication/250726148_Between_perception_and_intuition_Learning_about_infinity",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 19,
 		"quote": "I’ve invented a number bigger than infinity",
 		"answer": "research",
@@ -198,8 +198,8 @@
 			"source": "https://www.researchgate.net/publication/37143279_A_child_thinking_about_infinity",
 			"nsfw": false
 		}
-	}
 	},
+	{
 		"id": 20,
 		"quote": "how many nights does it take to count the stars?” ",
 		"answer": "lyric",
@@ -208,4 +208,5 @@
 			"source": "https://youtu.be/26bcRNifIOM",
 			"nsfw": false
 		}
+	}
 ]
