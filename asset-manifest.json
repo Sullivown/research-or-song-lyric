@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/research-or-song-lyric/static/css/main.31d6cfe0.css",
+    "main.js": "/research-or-song-lyric/static/js/main.a78244b5.js",
+    "index.html": "/research-or-song-lyric/index.html",
+    "main.a78244b5.js.map": "/research-or-song-lyric/static/js/main.a78244b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.a78244b5.js"
+  ]
+}
