@@ -1,3 +1,3 @@
-# Research Paper or Song Lyrics?
+# Maths Education Research or Song Lyric?
 
 Can you guess correctly?
