@@ -36,27 +36,176 @@
 		"details": {
 			"title": "Juice by Lizzo",
 			"source": "https://youtu.be/XaCrQL_8eMY",
-			"nsfw": false
+			"nsfw": true
 		}
 	},
 	{
 		"id": 4,
-		"quote": "This is a quote 2",
-		"answer": "research",
+		"quote": "we make them try angles like geometry class",
+		"answer": "lyric",
 		"details": {
-			"title": "Research Paper 3",
-			"source": "http://www.google.com",
-			"nsfw": false
+			"title": "Swagga Like Los by Los",
+			"source": "https://youtu.be/ZYvjnQDqIb4",
+			"nsfw": true
 		}
 	},
 	{
 		"id": 5,
-		"quote": "This is a quote 2",
+		"quote": "there is no such thing as ‘neutral’  ",
 		"answer": "research",
 		"details": {
-			"title": "Research Paper 3",
-			"source": "http://www.google.com",
+			"title": "Bakker, A., Cai, J. & Zenger, L.  Future themes of mathematics education research: an international survey before and during the pandemic,  p12",
+			"source": "https://www.researchgate.net/publication/350669919_Future_themes_of_mathematics_education_research_an_international_survey_before_and_during_the_pandemic",
+			"nsfw": false
+		}
+	},
+	{
+		"id": 6,
+		"quote": "that's a one hot album every 10-year average",
+		"answer": "lyric",
+		"details": {
+			"title": "Takeover  by Jay-Z",
+			"source": "https://youtu.be/Aht7DVRRNiQ",
+			"nsfw": true
+		}
+	},
+	{
+		"id": 7,
+		"quote": "one spoon for two",
+		"answer": "lyric",
+		"details": {
+			"title": "Déjà vu by Olivia Rodrigo",
+			"source": "https://youtu.be/cii6ruuycQA",
+			"nsfw": false
+		}
+	},
+	{
+		"id": 8,
+		"quote": "a kaleidoscope of windows",
+		"answer": "research",
+		"details": {
+			"title": "Kaput, J. J. (1999). Representations, inscriptions, descriptions and learning: A kaleidoscope of windows. Journal of Mathematical Behavior, p.1 ",
+			"source": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.130.5826&rep=rep1&type=pdf",
 			"nsfw": false
 		}
 	}
+	},
+		"id": 9,
+		"quote": "reaching out to embrace the random",
+		"answer": "lyric",
+		"details": {
+			"title": "Lateralus by Tool",
+			"source": "https://youtu.be/uOHkeH2VaE0",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 10,
+		"quote": "flipping with a coin that's got a tail on either side  ",
+		"answer": "lyric",
+		"details": {
+			"title": "Never Be Lonely by The Feeling",
+			"source": "https://youtu.be/MS5da0OPhY8",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 11,
+		"quote": "there is no reality to get in your way",
+		"answer": "research",
+		"details": {
+			"title": "Lockhart, P. A Mathematician's Lament",
+			"source": "https://www.maa.org/external_archive/devlin/LockhartsLament.pdf",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 12,
+		"quote": "clap on every third beat",
+		"answer": "research",
+		"details": {
+			"title": "belcastro, sarah-marie, & Schaffer, K. (2018). Dancing Mathematics and the Mathematics of Dance. Math Horizons, p.18",
+			"source": "https://www.researchgate.net/publication/259735112_Dancing_Mathematics_and_the_Mathematics_of_Dance",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 13,
+		"quote": "clap your hands and bend your knees with the music",
+		"answer": "lyric",
+		"details": {
+			"title": "Superman by Black Lace",
+			"source": "https://youtu.be/9Hpv2pWRoYM",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 14,
+		"quote": "a stickperson who moves mathematically  ",
+		"answer": "research",
+		"details": {
+			"title": "Healy, L., & Sinclair, N. (2007). If this is our mathematics, what are our stories? International Journal of Computers for Mathematical Learning, 12, 3–21, p.19. ",
+			"source": "https://www.researchgate.net/publication/225764431_If_this_is_our_mathematics_what_are_our_stories",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 15,
+		"quote": "arrest this man – he talks in maths",
+		"answer": "lyric",
+		"details": {
+			"title": "Karma Police by Radiohead",
+			"source": "https://youtu.be/1uYWYWPc9HU",
+			"nsfw": true
+		}
+	}
+	},
+		"id": 16,
+		"quote": "no end and no beginning",
+		"answer": "lyric",
+		"details": {
+			"title": "Like A Prayer by Madonna",
+			"source": "https://youtu.be/79fzeNUqQbQ",
+			"nsfw": true
+		}
+	}
+	},
+		"id": 17,
+		"quote": "It’s nothing, you just added some zeroes",
+		"answer": "research",
+		"details": {
+			"title": "Lappan, G., & Wheeler, M. M. (1987). Children’s understanding of zero and infinity. The Arithmetic Teacher, 35(3), 42–44, p.44",
+			"source": "https://www.jstor.org/stable/41194259",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 18,
+		"quote": "when you want to reach the stars. . . the nearer you try to get the farther they go",
+		"answer": "research",
+		"details": {
+			"title": "Singer, F. M., & Voica, C. (2008). Between perception and intuition: Learning about infinity. The Journal of Mathematical Behavior, 27(3), 188–205, p.191 ",
+			"source": "https://www.researchgate.net/publication/250726148_Between_perception_and_intuition_Learning_about_infinity",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 19,
+		"quote": "I’ve invented a number bigger than infinity",
+		"answer": "research",
+		"details": {
+			"title": "Tall, D. (2001). A child thinking about infinity. The Journal of Mathematical Behavior, 20(1), 7–19, p.3",
+			"source": "https://www.researchgate.net/publication/37143279_A_child_thinking_about_infinity",
+			"nsfw": false
+		}
+	}
+	},
+		"id": 20,
+		"quote": "how many nights does it take to count the stars?” ",
+		"answer": "lyric",
+		"details": {
+			"title": "Infinity by One Direction",
+			"source": "https://youtu.be/26bcRNifIOM",
+			"nsfw": false
+		}
 ]
