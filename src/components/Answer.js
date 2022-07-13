@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Button from '../elements/Button';
-import P from '../elements/P';
 import H3 from '../elements/H3';
 
 const AnswerDiv = styled.div`

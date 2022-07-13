@@ -1,20 +1,25 @@
 import React, { useState } from 'react';
 
 import dataLoader from './helpers/dataLoader';
+import getRandomSubarray from './helpers/getRandomSubArray';
 import questionData from './data/questions.json';
 
 import StartPage from './pages/StartPage';
 import QuizPage from './pages/QuizPage';
 import ScorePage from './pages/ScorePage';
 
+const allQuestionsFormattedData = dataLoader(questionData);
+
 function App() {
 	const [score, setScore] = useState(0);
-	const [questions, setQuestions] = useState(dataLoader(questionData));
+	const [questions, setQuestions] = useState(
+		getRandomSubarray(allQuestionsFormattedData, 2)
+	);
 	const [currentPage, setCurrentPage] = useState('start');
 	const [currentQuestion, setCurrentQuestion] = useState(0);
 
 	function resetQuiz() {
-		setQuestions(dataLoader(questionData));
+		setQuestions(getRandomSubarray(allQuestionsFormattedData, 2));
 		setScore(0);
 		setCurrentPage('start');
 		setCurrentQuestion(0);

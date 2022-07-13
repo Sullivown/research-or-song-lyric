@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Button from '../elements/Button';
 import H1 from '../elements/H1';
-import P from '../elements/P';
 
 const StyledStartPage = styled.div`
 	color: #293264;
