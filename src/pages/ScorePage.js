@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import Confetti from 'react-confetti';
+import calculatePercentage from '../helpers/calculatePercentage';
 
 import TwitterShareButton from '../components/TwitterShareButton';
 
@@ -27,10 +28,11 @@ function ScorePage(props) {
 			{props.score === props.maxScore && (
 				<Confetti width={width} height={height} />
 			)}
-			<H1>Research Paper or Song Lyric?</H1>
+			<H1>Maths Education Research or Song Lyric?</H1>
 			<P>
-				You scored {props.score} out of {props.maxScore}!
+				You scored {props.score} out of {props.maxScore}
 			</P>
+			<P>which is {calculatePercentage(props.score, props.maxScore)}%</P>
 			<Button onClick={props.resetQuiz}>Play Again</Button>
 			<TwitterShareButton score={props.score} maxScore={props.maxScore} />
 		</StyledScorePage>

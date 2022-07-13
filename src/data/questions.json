@@ -5,7 +5,8 @@
 		"answer": "research",
 		"details": {
 			"title": "Research Paper 1",
-			"source": "http://www.google.com"
+			"source": "http://www.google.com",
+			"nsfw": true
 		}
 	},
 	{
@@ -14,7 +15,8 @@
 		"answer": "lyric",
 		"details": {
 			"title": "Research Paper 2",
-			"source": "http://www.google.com"
+			"source": "http://www.google.com",
+			"nsfw": true
 		}
 	},
 	{
@@ -23,7 +25,8 @@
 		"answer": "research",
 		"details": {
 			"title": "Research Paper 3",
-			"source": "http://www.google.com"
+			"source": "http://www.google.com",
+			"nsfw": false
 		}
 	}
 ]

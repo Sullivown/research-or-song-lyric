@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 import Button from '../elements/Button';
+import P from '../elements/P';
 
 const AnswerDiv = styled.div`
 	display: flex;
@@ -40,6 +41,14 @@ function Answer(props) {
 				</div>
 				<div>Source:</div>
 				<div> {props.question.details.title}</div>
+
+				{props.question.details.nsfw && (
+					<div>
+						Caution! This link may contain{' '}
+						<abbr title='Not Safe For Work'>NSFW</abbr> content!
+					</div>
+				)}
+
 				<div>
 					<a href={props.question.details.source}>
 						{props.question.details.source}
