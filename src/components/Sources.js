@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import SourceItem from './SourceItem';
 
@@ -24,5 +25,9 @@ function Sources(props) {
 		</SourcesContainer>
 	);
 }
+
+Sources.propTypes = {
+	sources: PropTypes.array.isRequired,
+};
 
 export default Sources;

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 import SourceLinkButton from './SourceLinkButton';
 
@@ -45,5 +46,19 @@ function SourceItem(props) {
 		</SourceItemDiv>
 	);
 }
+
+SourceItem.propTypes = {
+	source: PropTypes.exact({
+		id: PropTypes.number,
+		quote: PropTypes.string,
+		answer: PropTypes.string,
+		details: PropTypes.exact({
+			title: PropTypes.string,
+			source: PropTypes.string,
+			nsfw: PropTypes.bool,
+		}),
+		answered: PropTypes.string,
+	}),
+};
 
 export default SourceItem;

@@ -112,7 +112,17 @@ function Question(props) {
 }
 
 Question.propTypes = {
-	question: PropTypes.object,
+	question: PropTypes.exact({
+		id: PropTypes.number,
+		quote: PropTypes.string,
+		answer: PropTypes.string,
+		details: PropTypes.exact({
+			title: PropTypes.string,
+			source: PropTypes.string,
+			nsfw: PropTypes.bool,
+		}),
+		answered: PropTypes.string,
+	}),
 };
 
 export default Question;
