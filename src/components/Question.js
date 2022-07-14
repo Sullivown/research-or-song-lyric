@@ -9,6 +9,7 @@ import Answer from './Answer';
 
 const QuestionDiv = styled.div`
 	display: flex;
+	color: #4d5b9e;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -18,6 +19,7 @@ const QuestionDiv = styled.div`
 	padding-top: 100px;
 	@media (max-width: 768px) {
 		padding-top: 0;
+		font-size: 20px !important;
 	}
 `;
 

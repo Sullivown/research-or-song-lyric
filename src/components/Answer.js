@@ -2,8 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
+import SourceLinkButton from './SourceLinkButton';
+
 import Button from '../elements/Button';
 import H3 from '../elements/H3';
+
+const AnswerDivContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	min-width: clamp(250px, 515px, 100%);
+	visibility: ${(props) => (props.answered ? 'visible' : 'hidden')};
+`;
 
 const AnswerDiv = styled.div`
 	display: flex;
@@ -14,8 +24,6 @@ const AnswerDiv = styled.div`
 	gap: 1rem;
 	border: 1px solid #4d5b9e;
 	border-radius: 15px;
-	min-width: clamp(250px, 515px, 100%);
-	visibility: ${(props) => (props.answered ? 'visible' : 'hidden')};
 `;
 
 const NextButton = styled(Button)`
@@ -24,8 +32,8 @@ const NextButton = styled(Button)`
 
 function Answer(props) {
 	return (
-		<>
-			<AnswerDiv answered={props.question.answered}>
+		<AnswerDivContainer answered={props.question.answered}>
+			<AnswerDiv>
 				<H3>
 					{props.question.answer === props.question.answered
 						? 'Correct'
@@ -39,6 +47,7 @@ function Answer(props) {
 						: 'song lyrics'}
 					.
 				</div>
+
 				<H3>Source:</H3>
 				<div> {props.question.details.title}</div>
 
@@ -49,24 +58,16 @@ function Answer(props) {
 					</div>
 				)}
 
-				<div>
-					<a
-						href={props.question.details.source}
-						target='_blank'
-						rel='noreferrer'
-					>
-						Link
-					</a>
-				</div>
-				<div>
-					<NextButton onClick={props.handleNextQuestionClick}>
-						{props.currentQuestionNum + 1 === props.totalQuestions
-							? 'Show Score Summary'
-							: 'Next Quote'}
-					</NextButton>
-				</div>
+				<SourceLinkButton url={props.question.details.source} />
 			</AnswerDiv>
-		</>
+			<div>
+				<NextButton onClick={props.handleNextQuestionClick}>
+					{props.currentQuestionNum + 1 === props.totalQuestions
+						? 'Show Score Summary'
+						: 'Next Quote'}
+				</NextButton>
+			</div>
+		</AnswerDivContainer>
 	);
 }
 

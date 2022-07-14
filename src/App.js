@@ -9,7 +9,7 @@ import QuizPage from './pages/QuizPage';
 import ScorePage from './pages/ScorePage';
 
 const allQuestionsFormattedData = dataLoader(questionData);
-const TOTAL_QUESTIONS = 15;
+const TOTAL_QUESTIONS = 5;
 
 function App() {
 	const [score, setScore] = useState(0);
@@ -73,6 +73,7 @@ function App() {
 						<ScorePage
 							score={score}
 							maxScore={questions.length}
+							questions={questions}
 							resetQuiz={resetQuiz}
 						/>
 					),

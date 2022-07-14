@@ -7,6 +7,9 @@ const GlobalStyles = createGlobalStyle`
 
 	html {
 		height: 100%;
+		@media (max-width: 550px) {
+			font-size: 12px !important;
+		}
 	}
 
 	body {
@@ -25,6 +28,8 @@ const GlobalStyles = createGlobalStyle`
 		align-items: flex-start;
 		padding: 1rem;
 	}
+
+
 
 `;
 

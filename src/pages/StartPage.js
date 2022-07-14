@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
+
 import Button from '../elements/Button';
 import H1 from '../elements/H1';
 
@@ -22,4 +24,9 @@ function StartPage(props) {
 		</StyledStartPage>
 	);
 }
+
+StartPage.propTypes = {
+	handleStartClick: PropTypes.func.isRequired,
+};
+
 export default StartPage;
