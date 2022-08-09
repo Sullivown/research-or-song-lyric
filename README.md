@@ -2,4 +2,4 @@
 
 Can you guess correctly?
 
-(Play and find out!)[https://sullivown.github.io/research-or-song-lyric/]
+[Play and find out!](https://sullivown.github.io/research-or-song-lyric/)
